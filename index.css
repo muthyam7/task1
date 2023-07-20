@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;;
+    
+    
+}
+header{
+    background-color:rgb(71,181,237);
+
+}
+div h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+.navbar button{
+    padding:20px;
+    background-color: rgb(255,225,97);
+    color:#614F00;
+    font-size: 32px;
+    border:0px solid rgb(255,225,97);
+    border-radius: 3px;
+    
+
+}
+/*section1 */
+.section1{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-bottom: 50px;
+
+}
+.sec1-img{
+    align-self:center;
+    
+}
+.sec1-img img{
+
+}
+.sec1-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 20px;
+}
+.sec1-content h2{
+    font-size: 20px;
+}
+.sec1-btn{
+    padding:20px;
+    background-color: rgb(255,225,97);
+    color:#614F00;
+    font-size: 40px;
+    border:0px solid rgb(255,225,97);
+    border-radius: 3px;
+    align-self: center;
+    font-weight: 900;
+}
+.section2 h2{
+    padding:20px;
+    background-color:rgb(71,181,237);
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 900;
+
+
+}
+.section2 div{
+    font-size: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.sec3-img img{
+    width: 50%;
+    /* align-self: center; */
+}
+.sec4-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.sec4-img img{
+    width: 33%;
+}
+.section4{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.452);
+}
+.footer:last-child{
+    font-size: 22px;
+    font-weight: 100;
+}
+.last{
+    background-color: black;
+}
